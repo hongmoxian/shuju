@@ -1,0 +1,267 @@
+   { 
+    "type_map":		["O", "Ti"],
+    "mass_map":		[16, 47.8],
+
+    "init_data_prefix":	"/public3/home/sc30945/cp2k/ziho/tio2-o/data",
+    "init_data_sys":	[
+			 "system.1o",
+			 "system.2o",
+			 "system.3o",
+			 "system.4o",
+			 "system.5o",
+			 "system.6o",
+			 "system.bulk"
+			 ]
+			,
+    "init_batch_size":	[1, 1, 1, 1,1,1,1],
+    "sys_configs":	[
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/[1-5]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/[5-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/1[0-2]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/1[7-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/2[0-2]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/2[5-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/3o/shuju/[1-2]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/3o/shuju/[5-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/3o/shuju/1[0-2]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/3o/shuju/1[5-7]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/3o/shuju/2[0-1]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/3o/shuju/2[5-6]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/[1-2]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/[5-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/1[0-2]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/1[7-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/2[0-2]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/2[5-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/[1-2]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/[5-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/1[0-2]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/1[5-7]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/2[0-1]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/2[5-6]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/6o/shuju/[1-2]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/6o/shuju/[5-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/6o/shuju/1[0-2]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/6o/shuju/1[5-7]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/6o/shuju/2[0-1]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/6o/shuju/2[5-6]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/1[3-4]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/3o/shuju/1[3-4]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/1[3-4]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/1[3-4]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/6o/shuju/1[3-4]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/1[5-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/3o/shuju/1[8-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/1[0-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/1[8-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/6o/shuju/1[8-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/2[2-3]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/3o/shuju/2[2-3]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/2[2-3]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/2[2-3]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/6o/shuju/2[2-3]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/2[8-9]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/3o/shuju/2[8-9]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/2[8-9]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/2[8-9]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/6o/shuju/2[8-9]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/2[0]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/3o/shuju/30/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/30/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/30/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/6o/shuju/30/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/1o/shuju/30/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/3[0-1]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/3[2-4]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/3[0-2]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/3[5-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/4[0-1]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/4[2-6]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/2[0-1]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/3o/shuju/2[0-1]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/2[0-1]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/2[0-1]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/6o/shuju/2[0-1]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/1o/shuju/2[0-1]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/4o/shuju/[1-5]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/5o/shuju/[1-5]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/2o/shuju/[1-5]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/bulk/shuju/[1-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/bulk/shuju/1[0-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/bulk/shuju/2[0-9]/POSCAR"],
+        ["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/bulk/shuju/3[0-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/bulk/shuju/4[0-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/bulk/shuju/5[0-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/bulk/shuju/6[0-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/bulk/shuju/7[0-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/bulk/shuju/8[0-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/bulk/shuju/9[0-9]/POSCAR"],
+	["/public3/home/sc30945/cp2k/ziho/tio2-o/data/md.init/bulk/shuju/101/POSCAR"]
+	
+	
+	    ],
+    "_comment":		"0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15",
+    "sys_batch_size":	[1, 1, 1, 1, 1,1, 1, 1, 1, 1,1, 1, 1, 1, 1,1, 1, 1, 1, 1,1, 1, 1, 1, 1,1, 1, 1, 1, 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+    "numb_models":	4,
+    "train_param":	"input.json",
+    "default_training_param" : {
+	"_comment": " model parameters",
+	"model": {
+	    "type_map":     ["O", "Ti"],	    
+	    "descriptor" :{		
+		"type":		"se_e2_a",
+		"sel":		[96, 48],
+		"rcut_smth":	0.5,
+		"rcut":		6.00,
+		"neuron":	[25, 50, 100],
+		"axis_neuron":	16,
+		"seed":		1,
+		"_comment":	" that's all"		
+	    },
+	    "fitting_net" :{
+		"neuron":	[240, 240, 240],
+		"resnet_dt":	true,
+		"seed":		1,
+		"_comment":	" that's all"		
+	    },
+	    "_comment":	" that's all"		
+	},
+
+	"learning_rate" :{
+	    "start_lr":		0.005,
+	    "decay_steps":	5000,
+	    "decay_rate":	0.95,
+	    "_comment":	" that's all"		
+	},
+
+	"loss" :{
+	    "type"        :	"ener", 
+	    "start_pref_e":	0.02,
+	    "limit_pref_e":	1,
+	    "start_pref_f":	1000,
+	    "limit_pref_f":	1,
+	    "start_pref_v":	0.0,
+	    "limit_pref_v":	0.0,
+	    "_comment":	" that's all"		
+	}
+,
+	"training" : {
+	    "systems":		[],
+	    "set_prefix":	"set",    
+	    "stop_batch":	400000,
+	    "batch_size":	"auto",
+
+	    "_comment": " display and restart",
+	    "disp_file":	"lcurve.out",
+	    "disp_freq":	100,
+	    "numb_test":	5,
+	    "save_freq":	1000,
+	    "save_ckpt":	"model.ckpt",
+	    "disp_training":	true,
+	    "time_training":	true,
+	    "profiling":	false,
+	    "profiling_file":	"timeline.json"
+	}
+    },
+    "model_devi_dt":		0.0005,
+    "model_devi_taut":		0.1,
+    "model_devi_taup":		0.5,
+    "model_devi_skip":		10,
+    "model_devi_f_trust_lo":	0.15,
+    "model_devi_f_trust_hi":	0.3,
+    "model_devi_e_trust_lo":	1e10,
+    "model_devi_e_trust_hi":	1e10,
+    "model_devi_clean_traj":	true,
+    "model_devi_jobs":	[
+	{"sys_idx":[ 0,6,12,18,24], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  5000,  "ens": "nvt", "_idx": "00"},
+        {"sys_idx":[ 1,7,13,19,25], "Ts": [330,400,500], "Ps": [1],"t_freq": 10, "nsteps":  10000,  "ens": "nvt", "_idx": "01"},
+        {"sys_idx":[ 2,8,14,20,26], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  2000,  "ens": "nvt", "_idx": "02"},
+	{"sys_idx":[ 3,9,15,21,27], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  20000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 4,10,16,22,28], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "03"},
+        {"sys_idx":[ 5,11,17,23,29], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 30,31,32,33,34], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 35,36,37,38,39], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 40,41,42,43,44], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "03"},
+        {"sys_idx":[ 0,6,12,18,24], "Ts": [600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  20000,  "ens": "nvt", "_idx": "00"},
+        {"sys_idx":[ 1,7,13,19,25], "Ts": [600,700,800], "Ps": [1],"t_freq": 10, "nsteps":  20000,  "ens": "nvt", "_idx": "01"},
+        {"sys_idx":[ 2,8,14,20,26], "Ts": [600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "02"},
+	{"sys_idx":[ 3,9,15,21,27], "Ts": [600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 4,10,16,22,28], "Ts": [600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "03"},
+        {"sys_idx":[ 5,11,17,23,29], "Ts": [600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 45,46,47,48,49], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  100000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 50,51,52,53,54], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  100000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 50,51,52,53,54], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 45,46,47,48,49], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 55,56], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  10000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 57,58], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  20000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 59,60], "Ts": [400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  10000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 51,52,53,54,55], "Ts": [600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  100000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[ 63,64,65,66,67], "Ts": [600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  100000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[68,69,70], "Ts": [600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  100000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[61,62], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  15000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[59,60], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  15000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[0,1], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  20000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[71,72], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  2000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[75], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "03"},
+        {"sys_idx":[76], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  5000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[77], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  5000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[78], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  10000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[79], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  50000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[80], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  100000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[73], "Ts": [330,400,500], "Ps": [1], "t_freq": 10, "nsteps":  100000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[71], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  10000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[62,63,64,65,66,67,81], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  10000,  "ens": "nvt", "_idx": "03"},
+	{"sys_idx":[62,63,64,65,66,67,81], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  20000,  "ens": "nvt"    , "_idx": "03"},
+	{"sys_idx":[62,63,64,65,66,67,81], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  20000,  "ens": "nvt"    , "_idx": "03"},
+	{"sys_idx":[62,63,64,65,66,67,81], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  20000,  "ens": "nvt"    , "_idx": "03"},
+	{"sys_idx":[62,63,64,65,66,67,81], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  20000,  "ens": "nvt"    , "_idx": "03"},
+	{"sys_idx":[62,63,64,65,66,67,81], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  20000,  "ens": "nvt"    , "_idx": "03"},
+	{"sys_idx":[62,63,64,65,66,67], "Ts": [330,400,500,600,700,800], "Ps": [1], "t_freq": 10, "nsteps":  20000,  "ens": "nvt"    , "_idx": "03"}
+            ],
+     "fp_style": "cp2k", 
+    "shuffle_poscar": false, 
+    "fp_task_max": 40, 
+    "fp_task_min": 5, 
+    "fp_pp_path": ".", 
+    "fp_pp_files": [], 
+    "user_fp_params":  {
+      "FORCE_EVAL":{
+	"STRESS_TENSOR":"NONE",
+            "DFT":{
+                "BASIS_SET_FILE_NAME":  "/public3/home/sc30945/cp2k/BASIS_SET",
+                "POTENTIAL_FILE_NAME": "/public3/home/sc30945/cp2k/GTH_POTENTIALS",
+                "MGRID":{
+                    "CUTOFF": 1200,
+	                "REL_CUTOFF": 120
+                },
+                "QS":{
+                    "EPS_DEFAULT": 1.0E-13
+                      },
+                "SCF":{
+
+                    "EPS_SCF": 1.0E-6,
+                    "MAX_SCF": 80,
+	"OT":{ "MINIMIZER": "DIIS",
+    	"PRECONDITIONER": "FULL_ALL",
+    	"ENERGY_GAP":0.01},
+	    "OUTER_SCF":{
+   	  "EPS_SCF": 1.0E-6,
+   	   "MAX_SCF": 3}
+                   },
+                "XC":{
+    "XC_FUNCTIONAL":{
+		 "_": "    ",
+		"LIBXC" :{
+		"FUNCTIONAL":[ " MGGA_X_SCAN "," MGGA_C_SCAN "]		
+                }
+           }}},
+            "SUBSYS":{
+                        "KIND":{
+                                "_": ["O", "Ti"],
+                                "POTENTIAL": ["GTH-PBE-q6", "GTH-PBE-q12"],
+                                "BASIS_SET": ["DZVP-MOLOPT-SR-GTH", "DZVP-MOLOPT-SR-GTH"]
+                        }
+            }
+        }
+    }
+}                                                                                                                                                                                  

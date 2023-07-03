@@ -1,0 +1,75 @@
+{
+  "train": [
+    {
+      "machine": {
+        "batch": "shell",
+        "hostname": "",
+        "machine_type": "slurm",
+        "work_path": "/public3/home/sc30945/cp2k/ziho/tio2-o/work",
+        "_comment" :    "that's all"
+      },
+      "resources": {
+        "numb_node": 1,
+        "with_mpi": false,
+        "task_per_node": 24,
+        "partition": "v3_64",
+        "exclude_list": [],
+        "source_list": ["env.sh"],
+        "module_list": [],
+        "time_limit": "48:0:0"
+      },
+           "command" :"/public3/home/sc30945/.conda/envs/deepmd/bin/dp",
+           "group_size": 4
+    }
+  ],
+
+  "model_devi": [
+    {
+      "machine": {
+        "batch": "shell",
+        "machine_type": "slurm",
+        "work_path": "/public3/home/sc30945/cp2k/ziho/tio2-o/work",
+        "_comment" :  "that's all"
+      },
+      "resources": {
+        "numb_node": 1,
+        "task_per_node": 24,
+        "with_mpi": false,
+        "partition": "v3_64",
+        "exclude_list": [],
+        "mem_limit": 30,
+        "source_list": ["env1.sh"],
+        "module_list": ["gcc/7.4.0-public3","mpi/intel/17.0.7-public3"],
+        "time_limit": "48:0:0",
+        "_comment" :    "that's all"
+      },
+      "command": "1/public3/home/sc30945/.conda/envs/deepmd/bin/lmp",
+      "group_size":50
+    }
+  ],
+
+  "fp": [
+    {
+      "machine": {
+        "batch": "shell",
+        "machine_type": "slurm",
+        "work_path": "/public3/home/sc30945/cp2k/ziho/tio2-o/work",
+        "_comment" :    "that's all"
+      },
+      "resources": {
+        "numb_node": 1,
+        "task_per_node": 24,
+        "with_mpi": true,
+        "source_list": [""],
+        "module_list":["cp2k/7.1-libxc-4.3.4-intel19-public3","mpi/intel/17.0.7-public3"],
+        "partition": "v3_64",
+        "time_limit":   "24:0:0",
+        "_comment":     "that's all"
+      },
+      "_comment":       "fp on localhost ",
+      "command":        "cp2k.popt -i 11input.inp",
+      "group_size":   45
+    }
+  ]
+}
+
